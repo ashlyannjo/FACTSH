@@ -1,0 +1,60 @@
+/* Contact.css */
+.responsivemap {
+  overflow: hidden;
+  height: auto;
+  padding-bottom: 30%;
+  position: relative;
+  background-image: url('../../assets/images/map-placeholder.png');
+  background-size: cover; 
+  background-position: center;
+}
+
+.responsivemap iframe {
+  border: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding-bottom: 0;
+  position: absolute;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .contact-card {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 50px;
+  background: #fad2d8;
+  box-shadow: 20px 20px 60px #fff5e7, -20px -20px 60px #bfa5a3;
+  }
+  
+  .contact-card h2 {
+    color: #750616;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info p {
+    margin: 20px 0;
+  }
+
+  @media (max-width: 1200px) {
+    .responsivemap {
+      padding-bottom: 50%; /* Adjust width for smaller screens */
+    }
+  }
+  @media (max-width: 768px) {
+    .responsivemap {
+      padding-bottom: 80%; /* Adjust width for smaller screens */
+    }
+  }

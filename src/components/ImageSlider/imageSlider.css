@@ -1,0 +1,47 @@
+.slider {
+  position: relative;
+  height: 100%;
+}
+.slide {
+  width: 70% !important;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  /* border: 1px solid black; */
+}
+.slide img{
+  border-radius: 10px;
+  width: 80%;
+  aspect-ratio: 3/1;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 45px;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: 32px;
+}
+
+.right-arrow {
+  right: 32px;
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  margin: 0 3px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+

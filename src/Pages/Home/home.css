@@ -1,0 +1,66 @@
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  padding: 4px;
+}
+
+.lab-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.obj-component {
+  background-color: #fff5e7;
+  padding: 20px;
+  margin: 20px;
+  flex: 1 1 300px;
+  border-radius: 50px;
+  background: #fad2d8;
+  /* box-shadow: 0px 0px 30px #fff5e7, -20px -20px 60px #bfa5a3; */
+}
+
+.obj-component h3 {
+  color: #750616;
+}
+
+.obj-component ul {
+  color: #000000;
+}
+.tx-color{
+  color: #000000;
+}
+.marq-css{
+  background-color: #d19ea4;
+  color: #000000;
+  font-size: 20px;
+}
+
+
+.side-by-side-container {
+  display: flex;
+  align-items: flex-start; /* Adjust this based on vertical alignment needs */
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+.side-by-side-container h4 {
+  flex: 1; /* Adjust the value as needed to control the width */
+  margin-right: 20px; /* Space between h4 and LatestNews component */
+}
+
+.side-by-side-container .latest-news-container {
+  flex: 1; /* Adjust the value as needed to control the width */
+}
+
+@media (max-width: 768px) {
+  .side-by-side-container {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  .side-by-side-container h4 {
+    margin-right: 0; /* Remove the right margin when stacked */
+    margin-bottom: 20px; /* Add a bottom margin for spacing */
+  }
+}

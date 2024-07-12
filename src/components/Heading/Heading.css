@@ -1,0 +1,16 @@
+/* Heading.css */
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    align-items: center; /* Ensure full height of the viewport */
+  }
+  
+  .heading-content {
+    font-weight: bold;
+    color: #750616;
+    text-decoration: underline;
+  }
+  
